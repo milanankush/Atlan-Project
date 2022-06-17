@@ -89,6 +89,7 @@ function InputPage() {
       </button>
       {data.length ? (
         <div className="tableContainer">
+          <div></div>
           <table>
             <tbody>
               <tr className="rowHeader">
@@ -105,6 +106,7 @@ function InputPage() {
               ))}
             </tbody>
           </table>
+          <div></div>
         </div>
       ) : null}
     </div>

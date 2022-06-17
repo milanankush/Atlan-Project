@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     "supplierID": 4,
     "companyName": "Tokyo Traders",
@@ -348,3 +348,5 @@ export default [
     "phone": "(514) 555-2955"
   }
 ]
+
+export default data;

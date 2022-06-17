@@ -1,4 +1,4 @@
-export default[
+const data = [
   {
     "orderID": 10271,
     "customerID": "SPLIR",
@@ -242,3 +242,5 @@ export default[
     "discount": 0.1
   }
 ]
+
+export default data;

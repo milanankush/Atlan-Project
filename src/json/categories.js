@@ -1,5 +1,5 @@
 
-export default [
+const data = [
 	{
 		"categoryID" : 2,
 		"description" : "Sweet and savory sauces relishes spreads and seasonings",
@@ -41,3 +41,5 @@ export default [
 		"name" : "Seafood"
 	}
 ]
+
+export default data;

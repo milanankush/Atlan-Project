@@ -1,5 +1,5 @@
 
-export default[
+const data = [
 	{
 		"shipperID" : 1,
 		"companyName" : "Speedy Express",
@@ -16,3 +16,5 @@ export default[
 		"phone" : "(503) 555-9931"
 	}
 ]
+
+export default data;

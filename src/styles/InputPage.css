@@ -108,8 +108,8 @@ td {
     overflow-x: auto;
     width: 95vw;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 .icon {
     height: 20px;
@@ -121,4 +121,12 @@ td {
 .icon:hover {
     color: #F5F9FC;
     background-color: #0E1525;
+}
+.rowHeader {
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+}
+.headerText {
+    border-radius: 15px;
 }

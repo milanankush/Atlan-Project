@@ -93,7 +93,7 @@ function InputPage() {
             <tbody>
               <tr className="rowHeader">
                 {Object.keys(data[0]).map((td, key) => (
-                  <td key={key + "td"}>{td}</td>
+                  <td className="headerText" key={key + "td"}>{td}</td>
                 ))}
               </tr>
               {data.map((tr, key) => (

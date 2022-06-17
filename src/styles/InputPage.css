@@ -1,0 +1,124 @@
+* {
+    background-color: #0E1525;
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+.b1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    margin-top: 3%;
+    margin-bottom: 10%;
+    color: #F5F9FC;
+    font-family:cursive;
+}
+.input {
+    height: 6vh;
+    width: 60%;
+    color: #0E1525;
+    background-color: #F5F9FC;
+    border-radius: 25px;
+    border: 1px solid #F5F9FC;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+.input:focus {
+    text-align: center;
+    cursor: pointer;
+}
+.input:hover {
+    font-family: cursive;
+    border: 1px solid #F5F9FC;
+    color: #F5F9FC;
+    background-color: #0E1525;
+    cursor: pointer;
+}
+.input:hover .icon {
+    color: #F5F9FC;
+    background-color: #0E1525;
+    cursor: pointer;
+}
+.input::placeholder {
+    color: #0E1525;
+}
+.btn {
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #F5F9FC;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btn:hover {
+    font-family: cursive;
+    border: 1px solid #F5F9FC;
+    color: #F5F9FC;
+    background-color: #0E1525;
+}
+
+.options {
+    width: 60%;
+    border-radius: 10px;
+    text-align: center;
+}
+.options :last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.options :first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.option {
+    background-color: #F5F9FC;
+    border: 1px solid #F5F9FC;
+}
+.option:hover {
+    color: #F5F9FC;
+    background-color: #0E1525;
+    cursor: pointer;
+}
+table {
+    background-color: #1C2333aa;
+    border: 2px solid #F5F9FC;
+    margin-bottom: 20px;
+}
+
+td {
+    background-color: #1C2333aa;
+    border: 2px solid #F5F9FC;
+}
+
+th td {
+    font-weight: bold;
+}
+
+td {
+    color: #F5F9FC;
+    padding: 2px;
+}
+.tableContainer {
+    overflow-x: auto;
+    width: 95vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+    color: #0E1525;
+    background-color: #F5F9FC;
+}
+.icon:hover {
+    color: #F5F9FC;
+    background-color: #0E1525;
+}

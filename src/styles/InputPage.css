@@ -108,12 +108,11 @@ td {
 .tableContainer {
     overflow-x: auto;
     width: 95vw;
-    /* text-align: center; */
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .tableContainer::-webkit-scrollbar {
-    /* box-shadow: inset 0 0 5px grey; */
     background-color: #0E1525;
     border-radius: 10px;
     height: 12px;
@@ -140,5 +139,5 @@ td {
     font-weight: bold;
 }
 .headerText {
-    border-radius: 15px;
+    border-radius: 10px;
 }
